@@ -1,19 +1,21 @@
-
+import MCLogo from './assets/MCIcon.png'
 
 function Header() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg customNav">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">INSERT LOGO HERE</a>
+                    <a className="navbar-brand" href="#"><img src={MCLogo} id="navIcon"></img></a>
+
+
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse custom-nav-links" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="#">Homepage</a>
-                            <a className="nav-link" href="#">Projects</a>
-                            <a className="nav-link" href="#">Contact</a>
+                            <a className="nav-link active hp-nav-link" aria-current="page" href="#">Homepage</a>
+                            <a className="nav-link hp-nav-link" href="#">Projects</a>
+                            <a className="nav-link hp-nav-link" href="#">Contact</a>
                             {/* <a className="nav-link disabled" aria-disabled="true">Disabled</a> */}
                         </div>
                     </div>

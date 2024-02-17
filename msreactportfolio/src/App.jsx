@@ -11,13 +11,13 @@ function App() {
   // const [count, setCount] = useState(Homepage)
 
   return (
-    <>
-        <Header />
-        <Homepage />
-        <Projects />
-        <Contact /> 
-    </>
-  )
+    <div className='appbody'>
+      <Header />
+      <Homepage />
+      <Projects />
+      <Contact /> 
+    </div>
+  );
 };
 
 export default App;
