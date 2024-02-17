@@ -13,9 +13,9 @@ function Header() {
                     </button>
                     <div className="collapse navbar-collapse custom-nav-links" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link active hp-nav-link" aria-current="page" href="#">Homepage</a>
-                            <a className="nav-link hp-nav-link" href="#">Projects</a>
-                            <a className="nav-link hp-nav-link" href="#">Contact</a>
+                            <a className="nav-link active hp-nav-link" id="hp-nav-home" aria-current="page" href="#">Homepage</a>
+                            <a className="nav-link hp-nav-link" id="hp-nav-projects" href="#">Projects</a>
+                            <a className="nav-link hp-nav-link" id="hp-nav-contact" href="#">Contact</a>
                             {/* <a className="nav-link disabled" aria-disabled="true">Disabled</a> */}
                         </div>
                     </div>
