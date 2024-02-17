@@ -103,12 +103,27 @@
   font-size: 130%;
 }
 
+
+/* THIS NEEDS TO BE CHECKED OUT --------------------------------------- MAY BE DUE TO BOOTSTRAP STYLES */
+#hp-nav-home:hover, #hp-nav-projects:hover , #hp-nav-contact:hover {
+  color: #FFD16C;
+}
+
 .mainhome {
   background-color: #F74343;
   width: 100vw;
   height: 100vh;
   z-index: -1;
 }
+
+
+#new-mainbody {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+
 
 
 .title {
@@ -124,7 +139,7 @@
 }
 
 .profile-pic {
-  width: 60vw;
+  width: 100%;
   max-width: 600px;
 }
 
@@ -142,7 +157,55 @@
   color: #FFD16C;
 }
 
+.home-action:hover {
+  color: white;
+}
+
 .action-row {
   position: relative;
   top: 45vh;  
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  #new-mainprofile {
+    height: 45vh;
+    order: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #new-mainprojects {
+    height: 25vh;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #new-maincontact {
+    height: 25vh;
+    order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #new-mainprojects:hover, #new-maincontact:hover {
+    background-color: darkred;
+  }
+
+  .home-action {
+    font-size: 250%
+  }
+
+  #profile-picid {
+    width: 80%;
+    max-width: 400px;
+  }
 }
