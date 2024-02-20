@@ -20,20 +20,6 @@ function Homepage() {
                     </div>
                 </div>
 
-
-                {/* <div className="title">
-                    <img src={PortfolioProfile} className="profile-pic"></img>
-                </div>
-                <div className="row d-flex justify-content-between action-row">
-                    <div className="col-2 p-0 text-center">
-                        <h4 className= "home-action">PROJECTS</h4>
-                    </div>
-                    <div className="col-2 p-0 text-center">
-                        <h4 className= "home-action">CONTACT</h4>
-                    </div>
-                </div> */}
-
-
             </main>
         </>
     ) 

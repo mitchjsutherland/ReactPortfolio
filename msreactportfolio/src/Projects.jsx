@@ -1,4 +1,6 @@
 import React from 'react'
+import Project from './Project.jsx';
+import projects from './projects.json';
 
 function Projects() {
 
@@ -6,7 +8,7 @@ function Projects() {
         <>
             <main className="mainprojects">
 
-                <div className="container projectbody">
+                <div className="container col-11 projectbody">
                     <div className="col-6 project-title-wrapper">
                         <div className = "col-12">
                             <div className="div projects-title" id="projects-title">
@@ -22,26 +24,56 @@ function Projects() {
                             <h3>Project Description</h3>
                         </div>
                     </div>
-                    <div className="col-6">
-                        <div className="projects-wrapper">
-                            
+                    <div className="col-md-6 col-sm-12 project-container d-flex">
                         
+                        <div className="projects-wrapper">
+
+                                {/* {projects.map((project) => {
+                                    console.log("Mapping project:", project); // Log to check if data is received
+                                    return (
+                                        <div key={project.id} className="col-4">
+                                            <Project
+                                                title={project.title}
+                                                app-url={project.app-url}
+                                                repo-url={project.repo-url}
+                                                image={project.image}
+                                            />
+                                        </div>
+                                    );
+                                })} */}
+
+                            <div className="row project-list-main">
+
+                                <div className="col-4">
+                                    <div id="simple-list-example" className="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                                    <a className="p-1 rounded" href="#simple-list-item-1">Item 1</a>
+                                    <a className="p-1 rounded" href="#simple-list-item-2">Item 2</a>
+                                    <a className="p-1 rounded" href="#simple-list-item-3">Item 3</a>
+                                    <a className="p-1 rounded" href="#simple-list-item-4">Item 4</a>
+                                    <a className="p-1 rounded" href="#simple-list-item-5">Item 5</a>
+                                    </div>
+                                </div>
+                                <div className="col-8">
+                                    <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" className="scrollspy-example" tabindex="0">
+                                    {/* <Project title={project.title} app-url={project.app-url} repo-url={project.repo-url} image={project.image} /> */}
+                                
+                                    <h4 id="simple-list-item-2">Item 2</h4>
+                                    <p>...</p>
+                                    <h4 id="simple-list-item-3">Item 3</h4>
+                                    <p>...</p>
+                                    <h4 id="simple-list-item-4">Item 4</h4>
+                                    <p>...</p>
+                                    <h4 id="simple-list-item-5">Item 5</h4>
+                                    <p>...</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+
                     </div>
 
                 </div>
-
-                {/* <div className="row align-items-center justify-content-center text-center" id="new-mainbody">
-                    <div className="col-sm-7 col-md-2 col-lg-2" id="new-mainprojects">
-                        <h4 className= "home-action">PROJECTS</h4>
-                    </div>
-                    <div className="col-sm-11 col-md-6" id="new-mainprofile">
-                        <img src={PortfolioProfile} className="profile-pic" id="profile-picid"></img>
-                    </div>
-                    <div className="col-sm-7 col-md-2 col-lg-2" id="new-maincontact">
-                        <h4 className= "home-action">CONTACT</h4>
-                    </div>
-                </div> */}
 
             </main>
         </>

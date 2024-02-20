@@ -261,7 +261,26 @@ a:-webkit-any-link {
   text-align: center;
 }
 
+.project-container {
+  justify-items: center;
+}
 
+.projects-wrapper {
+  height: 75vh;
+  width: 75vh;
+  background-color: #F74343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-list-main {
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
 
 
 /* CONTACT -------------------------------------------- */
