@@ -73,13 +73,16 @@
   height: 100vh;
 }
 
+
+/* HEADER NAV -------------------------------------------- */
+
 .customNav {
   background-color: #F74343;
   margin-bottom: 2px;
 }
 
 #navIcon {
-  height: 1em;
+  height: 1.5em;
 }
 
 .custom-nav-links {
@@ -88,14 +91,10 @@
 
 .active-nav-link {
   justify-content: center;
+  color: orange;
 }
 
-.hp-nav-link {
-  color: white;
-  text-decoration: none;
-}
-
-Link {
+a:-webkit-any-link {
   text-decoration: none;
 }
 
@@ -109,10 +108,12 @@ Link {
 }
 
 
-/* THIS NEEDS TO BE CHECKED OUT --------------------------------------- MAY BE DUE TO BOOTSTRAP STYLES */
 #hp-nav-home:hover, #hp-nav-projects:hover , #hp-nav-contact:hover {
   color: #FFD16C;
 }
+
+
+/* HOMEPAGE -------------------------------------------- */
 
 .mainhome {
   background-color: #F74343;
@@ -127,9 +128,6 @@ Link {
   width: 100vw;
   margin: 0;
 }
-
-
-
 
 .title {
   position: absolute;
@@ -170,7 +168,6 @@ Link {
   position: relative;
   top: 45vh;  
 }
-
 
 @media only screen and (max-width: 767px) {
 
@@ -218,3 +215,53 @@ Link {
     max-width: 400px;
   }
 }
+
+
+/* PROJECTS -------------------------------------------- */
+
+.mainprojects {
+  background-color: #FFFEF5;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.projectbody {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+#projects-title h1, #projects-subtitle {
+  font-family: "DM Serif Display", serif;
+  font-size: 600%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#p-title-1 {
+  color: #F74343;
+  margin-bottom: 0;
+}
+
+#p-title-2 {
+  color: #FFD16C;
+}
+
+#projects-subtitle {
+  margin-bottom: 15%;
+}
+
+.project-info {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+
+/* CONTACT -------------------------------------------- */
