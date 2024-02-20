@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "Digital Nomad",
+      "app-url": "https://filipkotanski.github.io/Digital-Nomad-App/index.html",
+      "repo-url": "https://github.com/FilipKotanski/Digital-Nomad-App",
+      "image": "./assets/digitalnomad.png"
+    },
+    {
+        "id": 2,
+        "title": "README Generator",
+        "app-url": "https://www.youtube.com/watch?v=yjGQC8cx_nM",
+        "repo-url": "https://github.com/mitchjsutherland/ReadMeGenerator"
+    },
+    {
+        "id": 3,
+        "title": "Coding Quiz",
+        "app-url": "https://mitchjsutherland.github.io/Coding-Quiz/",
+        "repo-url": "https://github.com/mitchjsutherland/Coding-Quiz"
+    },
+    {
+        "id": 4,
+        "title": "Password Generator",
+        "app-url": "https://mitchjsutherland.github.io/Password-Generator/",
+        "repo-url": "https://github.com/mitchjsutherland/Password-Generator"
+    },
+    {
+        "id": 5,
+        "title": "Blackjack Online",
+        "app-url": "https://mitchjsutherland.github.io/BlackJack-attempt1-/",
+        "repo-url": "https://github.com/mitchjsutherland/BlackJack-attempt1-"
+    },
+    {
+        "id": 6,
+        "title": "CSS Portfolio",
+        "app-url": "https://mitchjsutherland.github.io/portfolio-02/",
+        "repo-url": "https://github.com/mitchjsutherland/portfolio-02"
+    }
+]
