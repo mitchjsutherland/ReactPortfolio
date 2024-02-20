@@ -169,6 +169,10 @@
 
 @media only screen and (max-width: 767px) {
 
+  #hp-nav-home, #hp-nav-projects, #hp-nav-contact {
+    margin-left: auto;
+  }
+
   #new-mainprofile {
     height: 45vh;
     order: 1;

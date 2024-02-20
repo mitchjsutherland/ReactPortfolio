@@ -1,3 +1,4 @@
+import React from 'react'
 import PortfolioProfile from './assets/ProfilePic2.png'
 
 function Homepage() {
