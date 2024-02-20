@@ -92,6 +92,11 @@
 
 .hp-nav-link {
   color: white;
+  text-decoration: none;
+}
+
+Link {
+  text-decoration: none;
 }
 
 #hp-nav-home, #hp-nav-projects, #hp-nav-contact {
