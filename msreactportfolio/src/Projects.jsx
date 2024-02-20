@@ -13,7 +13,7 @@ function Projects() {
                                 <h1 id="p-title-1">Projects</h1>
                                 <h1 id="p-title-2">Portfolio</h1>
                             </div>
-                            <div className="div projects-subtitle" id="projects-subtitle">
+                            <div className="projects-subtitle" id="projects-subtitle">
                                 <h5>Because the proof is in the projects, right?</h5>
                             </div>
                         </div>
@@ -23,7 +23,8 @@ function Projects() {
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="div projects-wrapper">
+                        <div className="projects-wrapper">
+                            
                         
                         </div>
                     </div>
