@@ -1,4 +1,4 @@
-import MCLogo from './assets/MCIcon.png'
+import MCLogo from './assets/MCIconWhite.png'
 import { Link } from 'react-router-dom';
 
 function Header() {

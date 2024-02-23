@@ -82,7 +82,7 @@
 }
 
 #navIcon {
-  height: 1.5em;
+  height: 2.5em;
 }
 
 .custom-nav-links {
@@ -241,7 +241,7 @@ a:-webkit-any-link {
 
 #projects-title h1, #projects-subtitle {
   font-family: "DM Serif Display", serif;
-  font-size: 600%;
+  font-size: 800%;
   font-weight: 400;
   font-style: normal;
 }
@@ -300,8 +300,40 @@ a:-webkit-any-link {
   color: black;
 }
 
+.carousel-item .active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------ Can the below be implemented in a better way ------- */
+
 .project-img {
-  height: 50px;
+  height: 80%; 
+  width: 80%;
+  margin: auto;
+}
+
+#project-img-css {
+  height: 60%;
+  width: 60%;
+  margin: auto;
+}
+
+#project-img-pw {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+}
+
+#project-img-bj {
+  height: 95%;
+  width: 95%;
+  margin: auto;
+}
+
+.carousel-indicators {
+  background-color: #FFD16C;
 }
 
 .project-icon {

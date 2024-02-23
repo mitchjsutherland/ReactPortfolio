@@ -22,7 +22,7 @@ function Projects() {
 
                 <div className="container col-11 projectbody">
                     <div className="col-6 project-title-wrapper">
-                        <div className = "col-12">
+                        <div className= "col-12">
                             <div className="div projects-title" id="projects-title">
                                 <h1 id="p-title-1">Projects</h1>
                                 <h1 id="p-title-2">Portfolio</h1>
@@ -31,9 +31,14 @@ function Projects() {
                                 <h5>Because the proof is in the projects, right?</h5>
                             </div>
                         </div>
-                        <div className = "project-info">
-                            {/* <h2>Project Name</h2>
-                            <h3>Project Description</h3> */}
+                        <div className= "project-info col-9">
+                            {/* ---------- Once projects are updated dynamically, the project name and description can appear here ---------- */}
+                            <h2>Project Name</h2>
+                            <h3>Project Description</h3>
+                            <div className="icon-container col-12 d-flex justify-content-center mt-4">
+                                <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
+                                <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
+                            </div>
                         </div>
                     </div>
 
@@ -99,72 +104,73 @@ function Projects() {
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 0"></button>
                                     </div>
-                                    <div className="carousel-inner">
+
+                                    <div className="carousel-inner justify-content-center">
                                         {/* -------------- This should be updated to be produced dynamically with the map function and Project component -------------- */}
                                         <div className="carousel-item active">
-                                            <img class="project-img" src={digitalnomad} className="d-block w-100" alt="..." />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5 class="project-name">{projects[0].title}</h5>
+                                            <img src={digitalnomad} className="d-block project-img" alt="..." />
+                                            <div className="carousel-caption d-none d-md-block">
+                                                {/* <h5 className="project-name">{projects[0].title}</h5> */}
                                                 {/* <p>Placeholder for project description.</p> */}
-                                                <div class="icon-container col-12 d-flex justify-content-center">
+                                                {/* <div className="icon-container col-12 d-flex justify-content-center">
                                                     <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
                                                     <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <img class="project-img" src={readme} className="d-block w-100" alt="..." />
-                                            <div class="carousel-caption">
-                                                <h5 class="project-name">{projects[1].title}</h5>
+                                            <img src={readme} className="d-block project-img" alt="..." />
+                                            <div className="carousel-caption">
+                                                {/* <h5 className="project-name">{projects[1].title}</h5> */}
                                                 {/* <p>Placeholder for project description.</p> */}
-                                                <div class="icon-container col-12 d-flex justify-content-center">
+                                                {/* <div className="icon-container col-12 d-flex justify-content-center">
                                                     <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
                                                     <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <img class="project-img" src={codingchallenge} className="d-block w-100" alt="..." />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5 class="project-name">{projects[2].title}</h5>
+                                            <img src={codingchallenge} className="d-block project-img" alt="..." />
+                                            <div className="carousel-caption d-none d-md-block">
+                                                {/* <h5 className="project-name">{projects[2].title}</h5> */}
                                                 {/* <p>Placeholder for project description.</p> */}
-                                                <div class="icon-container col-12 d-flex justify-content-center">
+                                                {/* <div className="icon-container col-12 d-flex justify-content-center">
                                                     <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
                                                     <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <img class="project-img" src={password} className="d-block w-100" alt="..." />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5 class="project-name">{projects[3].title}</h5>
+                                            <img src={password} className="d-block project-img" id="project-img-pw" alt="..." />
+                                            <div className="carousel-caption d-none d-md-block">
+                                                {/* <h5 className="project-name">{projects[3].title}</h5> */}
                                                 {/* <p>Placeholder for project description.</p> */}
-                                                <div class="icon-container col-12 d-flex justify-content-center">
+                                                {/* <div className="icon-container col-12 d-flex justify-content-center">
                                                     <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
                                                     <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <img class="project-img" src={blackjack} className="d-block w-100" alt="..." />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5 class="project-name">{projects[4].title}</h5>
+                                            <img src={blackjack} className="d-block project-img" id="project-img-bj" alt="..." />
+                                            <div className="carousel-caption d-none d-md-block">
+                                                {/* <h5 className="project-name">{projects[4].title}</h5> */}
                                                 {/* <p>Placeholder for project description.</p> */}
-                                                <div class="icon-container col-12 d-flex justify-content-center">
+                                                {/* <div className="icon-container col-12 d-flex justify-content-center">
                                                     <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
                                                     <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div className="carousel-item">
-                                            <img class="project-img" src={cssportfolio} className="d-block w-100" alt="..." />
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <h5 class="project-name">{projects[5].title}</h5>
+                                            <img src={cssportfolio} className="d-block project-img" id="project-img-css" alt="..." />
+                                            <div className="carousel-caption d-none d-md-block">
+                                                {/* <h5 className="project-name">{projects[5].title}</h5> */}
                                                 {/* <p>Placeholder for project description.</p> */}
-                                                <div class="icon-container col-12 d-flex justify-content-center">
+                                                {/* <div className="icon-container col-12 d-flex justify-content-center">
                                                     <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
                                                     <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
