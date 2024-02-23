@@ -287,6 +287,26 @@ a:-webkit-any-link {
   align-items: center;
 }
 
+/* .project-list {
+  height: 100%;
+} */
+
+.customcarousel {
+  /* background-color: purple; */
+  height: 80%;
+}
+
+.project-name {
+  color: black;
+}
+
+.project-img {
+  height: 50px;
+}
+
+.project-icon {
+  height: 2em; 
+}
 
 /* CONTACT -------------------------------------------- */
 

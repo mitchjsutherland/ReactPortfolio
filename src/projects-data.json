@@ -4,36 +4,43 @@
       "title": "Digital Nomad",
       "app-url": "https://filipkotanski.github.io/Digital-Nomad-App/index.html",
       "repo-url": "https://github.com/FilipKotanski/Digital-Nomad-App",
-      "image": "./assets/digitalnomad.png"
+      "image": "src/assets/diginomad.png"
     },
     {
         "id": 2,
         "title": "README Generator",
         "app-url": "https://www.youtube.com/watch?v=yjGQC8cx_nM",
-        "repo-url": "https://github.com/mitchjsutherland/ReadMeGenerator"
+        "repo-url": "https://github.com/mitchjsutherland/ReadMeGenerator",
+        "image": "./assets/readmegen.png"
     },
     {
         "id": 3,
         "title": "Coding Quiz",
         "app-url": "https://mitchjsutherland.github.io/Coding-Quiz/",
-        "repo-url": "https://github.com/mitchjsutherland/Coding-Quiz"
+        "repo-url": "https://github.com/mitchjsutherland/Coding-Quiz",
+        "image": "./assets/codingchallenge.png"
     },
     {
         "id": 4,
         "title": "Password Generator",
         "app-url": "https://mitchjsutherland.github.io/Password-Generator/",
-        "repo-url": "https://github.com/mitchjsutherland/Password-Generator"
+        "repo-url": "https://github.com/mitchjsutherland/Password-Generator",
+        "image": "./assets/password.png"
     },
     {
         "id": 5,
         "title": "Blackjack Online",
         "app-url": "https://mitchjsutherland.github.io/BlackJack-attempt1-/",
-        "repo-url": "https://github.com/mitchjsutherland/BlackJack-attempt1-"
+        "repo-url": "https://github.com/mitchjsutherland/BlackJack-attempt1-",
+        "image": "./assets/blackjack.png"
     },
     {
         "id": 6,
         "title": "CSS Portfolio",
         "app-url": "https://mitchjsutherland.github.io/portfolio-02/",
-        "repo-url": "https://github.com/mitchjsutherland/portfolio-02"
+        "repo-url": "https://github.com/mitchjsutherland/portfolio-02",
+        "image": "/assets/cssportfolio.png"
+        
+        
     }
 ]
