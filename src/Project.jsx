@@ -5,8 +5,8 @@ function Project(props) {
         <>
             <div className="project-tile">
                 <h4>Title {props.title} </h4>
-                <p>Deployed app {props.app-url}</p>
-                <p>View github repository{props.repo-url}</p>
+                <p>Deployed app {props.appUrl}</p>
+                <p>View github repository{props.repoUrl}</p>
                 <p>Image {props.image}</p>
             </div>
         </>
