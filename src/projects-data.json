@@ -4,43 +4,47 @@
       "title": "Digital Nomad",
       "appUrl": "https://filipkotanski.github.io/Digital-Nomad-App/index.html",
       "repoUrl": "https://github.com/FilipKotanski/Digital-Nomad-App",
-      "image": "./assets/diginomad.png"
+      "image": "./assets/diginomad.png",
+      "description": "A tool designed to assist individuals who lead a location-independent lifestyle. The app provides features tailored to the needs of digital nomads, facilitating their work, travel, and lifestyle choices"
     },
     {
         "id": 2,
         "title": "README Generator",
         "appUrl": "https://www.youtube.com/watch?v=yjGQC8cx_nM",
         "repoUrl": "https://github.com/mitchjsutherland/ReadMeGenerator",
-        "image": "./assets/readmegen.png"
+        "image": "./assets/readmegen.png",
+        "description": "A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package"
     },
     {
         "id": 3,
         "title": "Coding Quiz",
         "appUrl": "https://mitchjsutherland.github.io/Coding-Quiz/",
         "repoUrl": "https://github.com/mitchjsutherland/Coding-Quiz",
-        "image": "./assets/codingchallenge.png"
+        "image": "./assets/codingchallenge.png",
+        "description": "A timed, multiple-choice coding quiz that can keep track of high scores and quiz-takers' initials"
     },
     {
         "id": 4,
         "title": "Password Generator",
         "appUrl": "https://mitchjsutherland.github.io/Password-Generator/",
         "repoUrl": "https://github.com/mitchjsutherland/Password-Generator",
-        "image": "./assets/password.png"
+        "image": "./assets/password.png",
+        "description": "An application that an employee can use to generate a random password based on criteria they’ve selected"
     },
     {
         "id": 5,
         "title": "Blackjack Online",
         "appUrl": "https://mitchjsutherland.github.io/BlackJack-attempt1-/",
         "repoUrl": "https://github.com/mitchjsutherland/BlackJack-attempt1-",
-        "image": "./assets/blackjack.png"
+        "image": "./assets/blackjack.png",
+        "description": "A noob's attempt at recreating the infamous Blackjack"
     },
     {
         "id": 6,
         "title": "CSS Portfolio",
         "appUrl": "https://mitchjsutherland.github.io/portfolio-02/",
         "repoUrl": "https://github.com/mitchjsutherland/portfolio-02",
-        "image": "/assets/cssportfolio.png"
-        
-        
+        "image": "/assets/cssportfolio.png",
+        "description": "Practicing CSS with a simple portfolio page"
     }
 ]

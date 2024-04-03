@@ -306,6 +306,21 @@ a:-webkit-any-link {
   align-items: center;
 }
 
+.project-container {
+  text-align: center;
+}
+
+.project-title, .project-description {
+  color: black;
+  background-color: #FFD16C;
+  opacity: 85%;
+}
+
+.project-image {
+  height: 30rem;
+  margin: 0 auto;
+}
+
 /* ------ Can the below be implemented in a better way ------- */
 
 .project-img {
@@ -333,7 +348,7 @@ a:-webkit-any-link {
 }
 
 .carousel-indicators {
-  background-color: #FFD16C;
+  /* background-color: #FFD16C; */
 }
 
 .project-icon {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -15,8 +15,20 @@ import website from './assets/website.png'
 
 
 function Projects() {
-    const imagesArr = [digitalnomad, readme, codingchallenge, password, blackjack, cssportfolio]
 
+    const imagesArr = [digitalnomad, readme, codingchallenge, password, blackjack, cssportfolio]
+    const [activeIndex, setActiveIndex] = useState(0);
+
+
+    const handleSlide = (selectedIndex) => {
+        setActiveIndex(selectedIndex);
+    };
+
+    useEffect(() => {
+        const currentProject = projects[activeIndex];
+    }, [activeIndex]);
+
+    
     return (
         <>
             <main className="mainprojects">
@@ -34,11 +46,11 @@ function Projects() {
                         </div>
                         <div className="project-info col-9">
                             {/* ---------- Once projects are updated dynamically, the project name and description can appear here ---------- */}
-                            <h2>Project Name</h2>
-                            <h3>Project Description</h3>
+                            <h2>{projects[activeIndex].title}</h2>
+                            {/* <h3>Project Description</h3> */}
                             <div className="icon-container col-12 d-flex justify-content-center mt-4">
-                                <Link to="https://www.github.com"><img className="project-icon github mx-5" src={github} /></Link>
-                                <Link to="https://www.google.com"><img className="project-icon website mx-5" src={website} /></Link>
+                                <Link to={projects[activeIndex].repoUrl}><img className="project-icon github mx-5" src={github} /></Link>
+                                <Link to={projects[activeIndex].appUrl}><img className="project-icon website mx-5" src={website} /></Link>
                             </div>
                         </div>
                     </div>
@@ -48,17 +60,20 @@ function Projects() {
                         <div className="projects-wrapper">
 
                             <div className="row project-list-main">
-                                <Carousel>
+                                <Carousel className="project-container" activeIndex={activeIndex} onSelect={handleSlide}>
                                     {projects.map((p, i) => {
-                                        return (<Carousel.Item>
-                                            <img src={imagesArr[i]} height='600px' width='auto' />
+                                        return (<Carousel.Item key={i}>
+                                            <img className="project-image" src={imagesArr[i]} height='600px' width='auto' />
                                             <Carousel.Caption>
-                                                <h3>First slide label</h3>
-                                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                {/* <h3 className="project-title">{p.title}</h3> */}
+                                                <p className="project-description">{p.description}</p>
+                                                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                                             </Carousel.Caption>
                                         </Carousel.Item>)
                                     })}
                                 </Carousel>
+
+
                                 {/* vanilla bootstrap carousel */}
                                 {/* <div id="carouselExampleIndicators" className="carousel slide customcarousel">
                                     <div className="carousel-indicators">
