@@ -246,6 +246,12 @@ a:-webkit-any-link {
   font-style: normal;
 }
 
+#projects-subtitle {
+  font-style: italic;
+  margin-left: 5rem;
+  opacity: 25%;
+}
+
 #p-title-1 {
   color: #F74343;
   margin-bottom: 0;
@@ -262,7 +268,7 @@ a:-webkit-any-link {
 .project-info {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
   text-align: center;
 }
 
@@ -365,6 +371,7 @@ a:-webkit-any-link {
   width: 100vw;
   height: 100vh;
   margin: 0;
+  flex-direction: column;
 }
 
 
@@ -374,4 +381,16 @@ a:-webkit-any-link {
   font-weight: 400;
   font-style: normal;
   color: white;
+}
+
+.disclaimer {
+  font-size: 40%;
+  position: absolute;
+  bottom: 1px;
+  color:#F74343;
+  transition: font-size 1s ease-in-out;
+}
+
+.disclaimer:hover {
+  font-size: 80%;
 }

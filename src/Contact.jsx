@@ -19,7 +19,12 @@ function Contact() {
                         <h5>LINKEDIN</h5>
                     </div>
                 </div>
+                <div className="row disclaimer">
+                   This portfolio is far from the finished masterpiece that I will be conjuring. Please also mind your head as random elements currently may fly in unexpected directions.
+                </div>
+
             </div>
+
         </div>
     )
 };
